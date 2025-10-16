@@ -1,7 +1,0 @@
-C:/Users/aydil/Documents/picohttps/build/_deps/picotool/picotool.exe
-C:/Users/aydil/Documents/picohttps/build/_deps/picotool/picotoolTargets.cmake
-C:/Users/aydil/Documents/picohttps/build/_deps/picotool/picotoolTargets-release.cmake
-C:/Users/aydil/Documents/picohttps/build/_deps/picotool/picotoolConfig.cmake
-C:/Users/aydil/Documents/picohttps/build/_deps/picotool/picotoolConfigVersion.cmake
-C:/Users/aydil/Documents/picohttps/build/_deps/picotool/enc_bootloader.elf
-C:/Users/aydil/Documents/picohttps/build/_deps/picotool/enc_bootloader_mbedtls.elf
