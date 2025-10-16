@@ -425,7 +425,7 @@ bool send_request(struct altcp_pcb* pcb, const char *body) {
     // Build request dynamically
     char request[512];  // adjust if you need bigger payloads
     int req_len = snprintf(request, sizeof(request),
-        "POST /105b0964-437b-4f2d-9857-7d70cbe0cea2 HTTP/1.1\r\n"
+        "POST / HTTP/1.1\r\n"
         "Host: %s\r\n"
         "Content-Type: application/json\r\n"
         "Content-Length: %d\r\n"

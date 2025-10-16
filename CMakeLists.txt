@@ -6,8 +6,8 @@ set(PICO_BOARD pico_w)
 set(PICO_SDK_PATH "C:/Users/aydil/.pico-sdk/sdk/2.2.0")
 include(${PICO_SDK_PATH}/pico_sdk_init.cmake)
 
-set(PICO_EXTRAS_PATH "C:/Users/aydil/Documents/Pico-v1.5.1/pico-extras")
-include(${PICO_EXTRAS_PATH}/external/pico_extras_import.cmake OPTIONAL)
+# set(PICO_EXTRAS_PATH "C:/Users/aydil/Documents/Pico-v1.5.1/pico-extras")
+# include(${PICO_EXTRAS_PATH}/external/pico_extras_import.cmake OPTIONAL)
 
 project(picohttps)
 
@@ -16,7 +16,7 @@ pico_sdk_init()
 
 # --- Executable ---
 add_executable(picohttps
-    picohttps.c
+    main.c
 )
 
 # --- Preprocessor defines ---
